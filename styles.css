@@ -1,0 +1,128 @@
+body{
+  background-color: white;
+  margin: auto;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+
+
+}
+
+.header {
+
+  box-shadow: 1px 1px 20px #DAE5D0;
+min-width: 100%;
+  padding: 2rem 0;
+margin: 0;
+
+}
+
+.firstContainer{
+  margin: 0 15% 0 15%;
+
+
+}
+
+
+
+.signIn{
+
+  background-color: #3BACB6;
+  color: white;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  border: #3BACB6;
+}
+
+#searchEmployee{
+
+  margin: 1rem 0 3rem;
+  width: 27rem;
+  height: 2rem;
+  border-radius: 0.3rem;
+  border: 1px solid #8f8f8f;
+  outline-color: #C2DED1;
+
+
+}
+
+i{
+  padding: 0;
+  margin: 0;
+  position: relative;
+  right: 2rem;
+  color: gray;
+
+}
+
+img {
+  width: 8rem;
+  height: 8rem;
+  border-radius: 100%;
+  margin:20px 20px 2px;
+}
+
+.title {
+  color: #3BACB6;
+}
+
+.flex-container{
+  display:flex;
+}
+
+.pictureWrap {
+  margin: 0 15% 0 15%;
+
+}
+
+
+.job_type{
+
+  background-color: #3A3845;
+  color: #F7F5F2;
+  padding: 0.5rem 2rem;
+  width: 10rem;
+  border-radius: 2rem;
+
+  margin-left: 2rem;
+
+}
+
+
+.employee{
+  margin: 1rem;
+  max-width: 40rem;
+  height: 20rem;
+  width: 100%;
+  box-shadow: 5px 5px 5px 5px #F1EEE9;
+  border-radius: 1rem;
+  color: #3BACB6;
+  cursor: pointer;
+
+
+}
+
+.employee:hover {
+  background-color: #E78EA9;
+  color: white;
+
+
+
+
+}
+
+
+
+
+
+
+.position{
+  color:  #3A3845;
+}
+
+.footer{
+  /* box-shadow: 20px #DAE5D0; */
+min-width: 100%;
+  padding: 2rem 0;
+margin: 30px 0;
+border-top: 2px blue;
+}
