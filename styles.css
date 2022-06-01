@@ -11,26 +11,53 @@ body{
 
   box-shadow: 1px 1px 20px #DAE5D0;
 min-width: 100%;
-  padding: 2rem 0;
+  padding: 0.5rem 0;
 margin: 0;
 
 }
 
 .firstContainer{
   margin: 0 15% 0 15%;
+  display: flex;
 
+}
 
+.flex {
+  display: flex;
+
+}
+.angelsHub{
+  float: left;
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin-right: 40rem;
+  color: #069A8E;
+cursor: pointer;
 }
 
 
 
+.moreCourses{
+color: #3BACB6;
+cursor: pointer;
+}
+
+.moreCourses:hover {
+  background-color: #EFFFFD;
+}
 .signIn{
 
   background-color: #3BACB6;
   color: white;
-  padding: 0.5rem 1rem;
+
   border-radius: 2rem;
   border: #3BACB6;
+
+  height: 2.5rem;
+  width: 5rem;
+  margin-top: 1rem;
+margin-left: 2rem;
+cursor: pointer;
 }
 
 #searchEmployee{
@@ -45,7 +72,7 @@ margin: 0;
 
 }
 
-i{
+#searchIcon{
   padding: 0;
   margin: 0;
   position: relative;
@@ -90,16 +117,19 @@ img {
 
 .employee{
   margin: 1rem;
-  max-width: 40rem;
+  min-width: 18em;
   height: 20rem;
-  width: 100%;
+
   box-shadow: 5px 5px 5px 5px #F1EEE9;
   border-radius: 1rem;
   color: #3BACB6;
   cursor: pointer;
+  text-align:center;
 
 
 }
+
+
 
 .employee:hover {
   background-color: #E78EA9;
