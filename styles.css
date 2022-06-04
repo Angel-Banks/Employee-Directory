@@ -31,8 +31,8 @@ margin: 0;
   font-weight: bold;
   font-size: 1.5rem;
   margin-right: 40rem;
-  color: #069A8E;
-cursor: pointer;
+  color:#3BACB6;
+  cursor: pointer;
 }
 
 
@@ -68,6 +68,7 @@ cursor: pointer;
   border-radius: 0.3rem;
   border: 1px solid #8f8f8f;
   outline-color: #C2DED1;
+  padding-left: 10px;
 
 
 }
@@ -101,6 +102,11 @@ img {
 
 }
 
+.position{
+  color:  #3A3845;
+}
+
+
 
 .job_type{
 
@@ -130,29 +136,39 @@ img {
 }
 
 
+.employee:hover  {
 
-.employee:hover {
-  background-color: #E78EA9;
-  color: white;
+   background-color: #bc658d;
+   transition: .2s ease-in;
 
+}
 
+.employee:hover .employeeName {
+  color: #fff;
+  transition: .2s ease-in;
+
+}
+
+.employee:hover .position {
+  color: #fff;
+   transition: .2s ease-in;
+
+}
+
+.employee:hover .job_type {
+  background-color: #bc658d;
+     border: 1px solid #fff;
 
 
 }
 
 
 
-
-
-
-.position{
-  color:  #3A3845;
-}
 
 .footer{
   /* box-shadow: 20px #DAE5D0; */
 min-width: 100%;
   padding: 2rem 0;
 margin: 30px 0;
-border-top: 2px blue;
+
 }
